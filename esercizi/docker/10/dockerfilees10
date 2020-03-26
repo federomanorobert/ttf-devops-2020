@@ -1,0 +1,10 @@
+FROM node:alpine
+
+Copy server.js /app/
+
+COPY package.json /app/
+
+#WORKDIR /app
+
+#RUN npm install
+
